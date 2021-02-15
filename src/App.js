@@ -1,10 +1,12 @@
+import Header from './components/Header/index'
+
+import './index.scss'
+
 function App() { 
   return (
-    <>
-      <h1>
-        working
-      </h1>
-    </>
+    <div style={{height : '100vh'}}>
+      <Header />
+    </div>
   )
 }
 
